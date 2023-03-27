@@ -1,0 +1,82 @@
+body {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.container {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-auto-rows: 46.8px;
+}
+.profile {
+  grid-row: 1/5;
+  border-right: solid 1px grey;
+  border-bottom: solid 1px grey;
+}
+.profile img{
+  height: 100px;
+  margin-top: 20px;
+  margin-left: 60px;
+}
+.profile h3{
+  text-align: center;
+  margin: 0;
+}
+.profile p{
+  text-align: center;
+  margin-top: 5px;
+  font-size: 13px;
+}
+.head {
+  grid-column: 2/7;
+  border-bottom: solid 1px grey;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.head .fa-bars{
+  cursor: pointer;
+  margin-left: 15px;
+}
+.head .fa:hover{
+  color: #3498db;
+}
+.head .drop{
+  margin-right: 15px;
+  display: flex;
+  align-items: end;
+  cursor: pointer;
+}
+.head img{
+  height: 25px;
+  margin-right: 5px;
+}
+.head h3{
+  padding: 2px 50px 2px 50px;
+  border: solid 3px #424949;
+  border-radius: 15px;
+  color: #34495e;
+  font-weight: normal;
+}
+.nav {
+  grid-row: 5/15;
+  border-right: solid 1px grey;
+}
+.nav ul{
+  padding-left: 20px;
+}
+.nav ul li{
+  list-style: none;
+  margin-bottom: 35px;
+  color:  #424949;
+  cursor: pointer;
+  width: 160px;
+}
+.nav ul li:hover{
+  color:  #3498db;
+}
+.main {
+  grid-row: 2/15;
+  grid-column: 2/7;
+}

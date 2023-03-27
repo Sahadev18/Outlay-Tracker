@@ -52,12 +52,11 @@ body {
   height: 25px;
   margin-right: 5px;
 }
-.head h3{
-  padding: 2px 50px 2px 50px;
+.head i{
+  /* padding: 2px 50px 2px 50px;
   border: solid 3px #424949;
-  border-radius: 15px;
+  border-radius: 15px;*/
   color: #34495e;
-  font-weight: normal;
 }
 .nav {
   grid-row: 5/15;
